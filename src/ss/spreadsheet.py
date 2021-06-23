@@ -1,7 +1,7 @@
-import requests
-from string import ascii_uppercase as alphabet
-from pandas import read_csv
 from io import StringIO
+from pandas import read_csv
+from string import ascii_uppercase as alphabet
+import requests
 
 class Spreadsheet(object):
 
